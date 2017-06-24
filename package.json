@@ -1,0 +1,37 @@
+{
+  "name": "es6-events",
+  "version": "1.0.0",
+  "description": "Simple ES6 event emitter and listener",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.5.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisRu/simple-events.git"
+  },
+  "keywords": [
+    "simple",
+    "eventlistener",
+    "events",
+    "event",
+    "es6-eventlistener",
+    "es6-events",
+    "es6-event",
+    "es6"
+  ],
+  "author": "Christian Ruigrok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisRu/simple-events/issues"
+  },
+  "homepage": "https://github.com/ChrisRu/simple-events#readme"
+}
