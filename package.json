@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisRu/simple-events.git"
+    "url": "git+https://github.com/ChrisRu/es6-events.git"
   },
   "keywords": [
     "simple",
@@ -31,7 +31,7 @@
   "author": "Christian Ruigrok",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChrisRu/simple-events/issues"
+    "url": "https://github.com/ChrisRu/es6-events/issues"
   },
-  "homepage": "https://github.com/ChrisRu/simple-events#readme"
+  "homepage": "https://github.com/ChrisRu/es6-events#readme"
 }
