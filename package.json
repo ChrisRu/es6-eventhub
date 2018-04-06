@@ -1,18 +1,20 @@
 {
   "name": "es6-eventhub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple ES6 event emitter and listener",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
   "devDependencies": {
-    "jest": "^20.0.4",
+    "babel-cli": "^6.26.0",
     "babel-jest": "^20.0.3",
-    "babel-preset-env": "^1.5.2"
+    "babel-preset-env": "^1.6.1",
+    "jest": "^20.0.4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "babel -d lib src"
   },
   "repository": {
     "type": "git",
