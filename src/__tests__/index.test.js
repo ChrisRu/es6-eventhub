@@ -18,7 +18,10 @@ test('Single event with arguments', () => {
   const args = [1, 2, 3, 'hello'];
 
   eventhub.on('singleW', (a, b, c, d) => {
-    expect(a, b, c, d).toEqual(...args);
+    expect(a).toEqual(args[0]);
+    expect(b).toEqual(args[1]);
+    expect(c).toEqual(args[2]);
+    expect(d).toEqual(args[3]);
   });
 
   eventhub.emit('singleW', ...args);
