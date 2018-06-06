@@ -1,4 +1,4 @@
-import Eventhub from './index';
+import Eventhub from '../index';
 
 test('Single event without arguments', () => {
   const eventhub = new Eventhub();
